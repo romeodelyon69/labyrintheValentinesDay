@@ -154,7 +154,7 @@ function init() {
     scene = new THREE.Scene();
     // Load Skybox
     const loader = new THREE.TextureLoader();
-    loader.load('skybox.jpg', function (texture) {
+    loader.load('skybox.png', function (texture) {
         scene.background = texture;
     }, undefined, function (err) {
         console.error("Skybox failed to load", err);
